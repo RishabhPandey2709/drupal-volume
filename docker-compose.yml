@@ -12,9 +12,9 @@ db:
         - storage-mysql
     environment:
         - MYSQL_USER=someuser
-        - MYSQL_PASSWORD=thispasswordsucks
+        - MYSQL_PASSWORD=this
         - MYSQL_DATABASE=somedb
-        - MYSQL_ROOT_PASSWORD=thispasswordsuckstoo
+        - MYSQL_ROOT_PASSWORD=this
 storage-drupal:
     image: drupal:8
     volumes:
